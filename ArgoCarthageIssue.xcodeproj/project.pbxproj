@@ -1,0 +1,426 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2CB4328A1AE03689001A2498 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CB432891AE03689001A2498 /* AppDelegate.swift */; };
+		2CB4328C1AE03689001A2498 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CB4328B1AE03689001A2498 /* ViewController.swift */; };
+		2CB4328F1AE03689001A2498 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CB4328D1AE03689001A2498 /* Main.storyboard */; };
+		2CB432911AE03689001A2498 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2CB432901AE03689001A2498 /* Images.xcassets */; };
+		2CB432941AE0368A001A2498 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2CB432921AE0368A001A2498 /* LaunchScreen.xib */; };
+		2CB432A01AE0368A001A2498 /* ArgoCarthageIssueTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CB4329F1AE0368A001A2498 /* ArgoCarthageIssueTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2CB4329A1AE0368A001A2498 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2CB4327C1AE03689001A2498 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2CB432831AE03689001A2498;
+			remoteInfo = ArgoCarthageIssue;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2CB432841AE03689001A2498 /* ArgoCarthageIssue.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ArgoCarthageIssue.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2CB432881AE03689001A2498 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2CB432891AE03689001A2498 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2CB4328B1AE03689001A2498 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2CB4328E1AE03689001A2498 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2CB432901AE03689001A2498 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		2CB432931AE0368A001A2498 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		2CB432991AE0368A001A2498 /* ArgoCarthageIssueTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ArgoCarthageIssueTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2CB4329E1AE0368A001A2498 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2CB4329F1AE0368A001A2498 /* ArgoCarthageIssueTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArgoCarthageIssueTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2CB432811AE03689001A2498 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2CB432961AE0368A001A2498 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2CB4327B1AE03689001A2498 = {
+			isa = PBXGroup;
+			children = (
+				2CB432861AE03689001A2498 /* ArgoCarthageIssue */,
+				2CB4329C1AE0368A001A2498 /* ArgoCarthageIssueTests */,
+				2CB432851AE03689001A2498 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2CB432851AE03689001A2498 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2CB432841AE03689001A2498 /* ArgoCarthageIssue.app */,
+				2CB432991AE0368A001A2498 /* ArgoCarthageIssueTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2CB432861AE03689001A2498 /* ArgoCarthageIssue */ = {
+			isa = PBXGroup;
+			children = (
+				2CB432891AE03689001A2498 /* AppDelegate.swift */,
+				2CB4328B1AE03689001A2498 /* ViewController.swift */,
+				2CB4328D1AE03689001A2498 /* Main.storyboard */,
+				2CB432901AE03689001A2498 /* Images.xcassets */,
+				2CB432921AE0368A001A2498 /* LaunchScreen.xib */,
+				2CB432871AE03689001A2498 /* Supporting Files */,
+			);
+			path = ArgoCarthageIssue;
+			sourceTree = "<group>";
+		};
+		2CB432871AE03689001A2498 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2CB432881AE03689001A2498 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2CB4329C1AE0368A001A2498 /* ArgoCarthageIssueTests */ = {
+			isa = PBXGroup;
+			children = (
+				2CB4329F1AE0368A001A2498 /* ArgoCarthageIssueTests.swift */,
+				2CB4329D1AE0368A001A2498 /* Supporting Files */,
+			);
+			path = ArgoCarthageIssueTests;
+			sourceTree = "<group>";
+		};
+		2CB4329D1AE0368A001A2498 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2CB4329E1AE0368A001A2498 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2CB432831AE03689001A2498 /* ArgoCarthageIssue */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2CB432A31AE0368A001A2498 /* Build configuration list for PBXNativeTarget "ArgoCarthageIssue" */;
+			buildPhases = (
+				2CB432801AE03689001A2498 /* Sources */,
+				2CB432811AE03689001A2498 /* Frameworks */,
+				2CB432821AE03689001A2498 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ArgoCarthageIssue;
+			productName = ArgoCarthageIssue;
+			productReference = 2CB432841AE03689001A2498 /* ArgoCarthageIssue.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2CB432981AE0368A001A2498 /* ArgoCarthageIssueTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2CB432A61AE0368A001A2498 /* Build configuration list for PBXNativeTarget "ArgoCarthageIssueTests" */;
+			buildPhases = (
+				2CB432951AE0368A001A2498 /* Sources */,
+				2CB432961AE0368A001A2498 /* Frameworks */,
+				2CB432971AE0368A001A2498 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2CB4329B1AE0368A001A2498 /* PBXTargetDependency */,
+			);
+			name = ArgoCarthageIssueTests;
+			productName = ArgoCarthageIssueTests;
+			productReference = 2CB432991AE0368A001A2498 /* ArgoCarthageIssueTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2CB4327C1AE03689001A2498 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Paul Young";
+				TargetAttributes = {
+					2CB432831AE03689001A2498 = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					2CB432981AE0368A001A2498 = {
+						CreatedOnToolsVersion = 6.3;
+						TestTargetID = 2CB432831AE03689001A2498;
+					};
+				};
+			};
+			buildConfigurationList = 2CB4327F1AE03689001A2498 /* Build configuration list for PBXProject "ArgoCarthageIssue" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2CB4327B1AE03689001A2498;
+			productRefGroup = 2CB432851AE03689001A2498 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2CB432831AE03689001A2498 /* ArgoCarthageIssue */,
+				2CB432981AE0368A001A2498 /* ArgoCarthageIssueTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2CB432821AE03689001A2498 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CB4328F1AE03689001A2498 /* Main.storyboard in Resources */,
+				2CB432941AE0368A001A2498 /* LaunchScreen.xib in Resources */,
+				2CB432911AE03689001A2498 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2CB432971AE0368A001A2498 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2CB432801AE03689001A2498 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CB4328C1AE03689001A2498 /* ViewController.swift in Sources */,
+				2CB4328A1AE03689001A2498 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2CB432951AE0368A001A2498 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CB432A01AE0368A001A2498 /* ArgoCarthageIssueTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2CB4329B1AE0368A001A2498 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2CB432831AE03689001A2498 /* ArgoCarthageIssue */;
+			targetProxy = 2CB4329A1AE0368A001A2498 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2CB4328D1AE03689001A2498 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2CB4328E1AE03689001A2498 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2CB432921AE0368A001A2498 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2CB432931AE0368A001A2498 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2CB432A11AE0368A001A2498 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2CB432A21AE0368A001A2498 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2CB432A41AE0368A001A2498 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ArgoCarthageIssue/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2CB432A51AE0368A001A2498 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ArgoCarthageIssue/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		2CB432A71AE0368A001A2498 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ArgoCarthageIssueTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ArgoCarthageIssue.app/ArgoCarthageIssue";
+			};
+			name = Debug;
+		};
+		2CB432A81AE0368A001A2498 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ArgoCarthageIssueTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ArgoCarthageIssue.app/ArgoCarthageIssue";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2CB4327F1AE03689001A2498 /* Build configuration list for PBXProject "ArgoCarthageIssue" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2CB432A11AE0368A001A2498 /* Debug */,
+				2CB432A21AE0368A001A2498 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2CB432A31AE0368A001A2498 /* Build configuration list for PBXNativeTarget "ArgoCarthageIssue" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2CB432A41AE0368A001A2498 /* Debug */,
+				2CB432A51AE0368A001A2498 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2CB432A61AE0368A001A2498 /* Build configuration list for PBXNativeTarget "ArgoCarthageIssueTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2CB432A71AE0368A001A2498 /* Debug */,
+				2CB432A81AE0368A001A2498 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2CB4327C1AE03689001A2498 /* Project object */;
+}
