@@ -13,6 +13,8 @@
 		2CB432911AE03689001A2498 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2CB432901AE03689001A2498 /* Images.xcassets */; };
 		2CB432941AE0368A001A2498 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2CB432921AE0368A001A2498 /* LaunchScreen.xib */; };
 		2CB432A01AE0368A001A2498 /* ArgoCarthageIssueTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CB4329F1AE0368A001A2498 /* ArgoCarthageIssueTests.swift */; };
+		2CB432AF1AE038E9001A2498 /* Argo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CB432AD1AE038E9001A2498 /* Argo.framework */; };
+		2CB432B01AE038E9001A2498 /* Runes.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CB432AE1AE038E9001A2498 /* Runes.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		2CB432991AE0368A001A2498 /* ArgoCarthageIssueTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ArgoCarthageIssueTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2CB4329E1AE0368A001A2498 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2CB4329F1AE0368A001A2498 /* ArgoCarthageIssueTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArgoCarthageIssueTests.swift; sourceTree = "<group>"; };
+		2CB432AD1AE038E9001A2498 /* Argo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Argo.framework; path = Argo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2CB432AE1AE038E9001A2498 /* Runes.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Runes.framework; path = Runes.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +47,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2CB432AF1AE038E9001A2498 /* Argo.framework in Frameworks */,
+				2CB432B01AE038E9001A2498 /* Runes.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -91,6 +97,8 @@
 			isa = PBXGroup;
 			children = (
 				2CB432881AE03689001A2498 /* Info.plist */,
+				2CB432AD1AE038E9001A2498 /* Argo.framework */,
+				2CB432AE1AE038E9001A2498 /* Runes.framework */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -342,6 +350,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Checkouts/Argo/build/Debug-iphoneos",
+					"$(PROJECT_DIR)/Carthage/Checkouts/runes/build/Debug-iphoneos",
+				);
 				INFOPLIST_FILE = ArgoCarthageIssue/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -352,6 +365,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Checkouts/Argo/build/Debug-iphoneos",
+					"$(PROJECT_DIR)/Carthage/Checkouts/runes/build/Debug-iphoneos",
+				);
 				INFOPLIST_FILE = ArgoCarthageIssue/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -411,6 +429,7 @@
 				2CB432A51AE0368A001A2498 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2CB432A61AE0368A001A2498 /* Build configuration list for PBXNativeTarget "ArgoCarthageIssueTests" */ = {
 			isa = XCConfigurationList;
@@ -419,6 +438,7 @@
 				2CB432A81AE0368A001A2498 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
